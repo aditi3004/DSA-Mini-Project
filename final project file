@@ -36,7 +36,7 @@ class creation{
 			Node curr;
 			Node new_node=new Node(v);
         	for(i=0;i<c;i++) {
-        		if(head[i].No==u.No && head[i].type==u.type) {
+        		if(head[i].No==u.No && head[i].type==u.type) {//type specifies city/pp/rl
         			curr=head[i];
         			while(curr.next!=null) {
         				curr=curr.next;
